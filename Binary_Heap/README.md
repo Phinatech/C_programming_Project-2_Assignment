@@ -104,17 +104,6 @@ The program demonstrates:
 - Tree and array visualization after each operation
 
 
-## Assignment Requirements Compliance
-
-- ✅ **Implementation in C** - All code in C
-- ✅ **Array-based heap** - Uses array for internal storage
-- ✅ **Proper heapify operations** - Both heapify-up and heapify-down implemented
-- ✅ **Heap structure displayed** - Tree visualization after each operation
-- ✅ **Task 1** - Binary tree built and converted to Max-Heap
-- ✅ **Task 2** - Unique job IDs assigned (A-K, L)
-- ✅ **Task 3** - Insertion of priority 100 with heapify-up
-- ✅ **Task 4** - Deletion of priority 100 with heapify-down
-
 ## Example Usage in Other Projects
 
 ```c

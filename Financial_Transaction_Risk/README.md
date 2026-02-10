@@ -75,11 +75,11 @@ The program displays:
 
 ## Algorithm Features
 
-- ✅ **Bellman-Ford Algorithm** - Handles negative edge weights
-- ✅ **Negative Cycle Detection** - Identifies exploitable transaction routes
-- ✅ **Path Reconstruction** - Shows complete transaction sequences
-- ✅ **Distance Tracking** - Computes minimum cumulative costs
-- ✅ **Graph Representation** - Edge-list based implementation
+-  **Bellman-Ford Algorithm** - Handles negative edge weights
+-  **Negative Cycle Detection** - Identifies exploitable transaction routes
+-  **Path Reconstruction** - Shows complete transaction sequences
+-  **Distance Tracking** - Computes minimum cumulative costs
+-  **Graph Representation** - Edge-list based implementation
 
 ## Use Cases
 

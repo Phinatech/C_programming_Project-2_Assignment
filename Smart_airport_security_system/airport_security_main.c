@@ -85,7 +85,7 @@ int main() {
     printf("\n➤ Updated Queue Structure:\n\n");
     displayQueueAsTree(queue, 0, 0);
     
-    printf("\n\n💡 What happened:\n");
+    printf("\n\n What happened:\n");
     printf("   • David Martinez (Risk: 98) was added to the queue\n");
     printf("   • The system automatically moved him to position 0 (highest priority)\n");
     printf("   • Other passengers were reorganized to maintain proper ordering\n");
@@ -114,7 +114,7 @@ int main() {
     printf("\n➤ Reorganized Queue Structure:\n\n");
     displayQueueAsTree(queue, 0, 0);
     
-    printf("\n\n💡 What happened:\n");
+    printf("\n\n What happened:\n");
     printf("   • David Martinez was removed from the top of the queue\n");
     printf("   • The system automatically reorganized remaining passengers\n");
     printf("   • %s (Risk: %d) is now the highest priority\n", 
@@ -135,7 +135,7 @@ int main() {
     printf("✓ Current queue size: %d passengers\n", queue->size);
     printf("✓ System maintains optimal risk-based ordering\n\n");
     
-    printf("🔐 All operations completed successfully.\n");
+    printf(" All operations completed successfully.\n");
     printf("   Security queue is ready for continuous operation.\n\n");
     
     // Clean up

@@ -72,7 +72,7 @@ Direct peer found: B <--> A  | transfer time = 6 mins
 Direct peer found: B <--> D  | transfer time = 5 mins
 Direct peer found: B <--> C  | transfer time = 11 mins
 
-✅ Highest-risk direct peer: C  (11 mins)
+ Highest-risk direct peer: C  (11 mins)
 ```
 
 ## Network Graph
