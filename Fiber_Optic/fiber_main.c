@@ -8,7 +8,7 @@ int main() {
     printf("║    SMART CITY FIBER-OPTIC NETWORK DEPLOYMENT SYSTEM          ║\n");
     printf("╚═══════════════════════════════════════════════════════════════╝\n\n");
     
-    printf("🌐 National Telecommunications Authority\n");
+    printf(" National Telecommunications Authority\n");
     printf("   Fiber-Optic Backbone Network Optimization\n");
     printf("───────────────────────────────────────────────────────────────\n\n");
     
@@ -60,7 +60,7 @@ int main() {
     }
     printf("\n\n");
     
-    printf("📝 Note: Based on the network diagram provided.\n");
+    printf(" Note: Based on the network diagram provided.\n");
     printf("   Edge weights A-D and D-F were estimated as 8 million each\n");
     printf("   (values not clearly visible in the provided diagram).\n\n");
     
@@ -70,7 +70,7 @@ int main() {
     
     displayAdjacencyMatrix(graph, numHubs, hubs);
     
-    printf("\n💡 Matrix Interpretation:\n");
+    printf("\n Matrix Interpretation:\n");
     printf("   • Rows and columns represent smart city hubs (A-G)\n");
     printf("   • Values represent installation costs in millions of dollars\n");
     printf("   • '-' indicates no direct fiber-optic connection\n");

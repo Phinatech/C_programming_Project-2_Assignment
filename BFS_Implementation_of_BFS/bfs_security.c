@@ -1,40 +1,3 @@
-/*
-============================================================
-Enterprise Insider Incident Graph (BFS One-Hop + Max Risk)
-============================================================
-
-Rubric targets (Excellent):
-1) Accept user input (suspected compromised workstation node).
-2) Use BFS starting from that node to return immediate contacts (one-hop neighbors).
-3) Identify which immediate contact has the highest transfer time (highest risk).
-
-Graph (from the picture):
-Edges with weights shown:
-  A-B = 6
-  B-D = 5
-  B-C = 11
-  C-D = 17
-  C-G = 25
-  D-E = 22
-  E-F = 10
-  F-G = 22
-
-Edges drawn but weight not visible in the picture:
-  A-D  (unknown)
-  D-F  (unknown)
-
-To be rubric-proof, this program lets you ENTER those missing weights.
-- If you enter 0, it will treat that edge as "not present".
-- If you enter a positive integer, it will include the edge.
-
-Compile:
-  gcc bfs_security.c -o bfs_security
-
-Run:
-  ./bfs_security    (Linux/macOS)
-  bfs_security      (Windows)
-*/
-
 #include <stdio.h>
 #include <ctype.h>
 
@@ -85,13 +48,6 @@ void add_edge(int g[N][N], int u, int v, int w) {
     }
 }
 
-/*
-BFS (one-hop style):
-- BFS starts at 'start'
-- We discover the immediate neighbors by exploring adjacency of 'start' (level 1).
-- This is still BFS logic: queue, visited.
-- We DO NOT expand beyond one-hop because the task asks for directly connected workstations.
-*/
 void bfs_one_hop_and_highest_risk(int g[N][N], int start) {
     int visited[N] = {0};
     Queue q;

@@ -4,7 +4,7 @@
 
 // Display the adjacency matrix
 void displayAdjacencyMatrix(int matrix[][MAX_HUBS], int numHubs, char hubs[]) {
-    printf("\n📊 ADJACENCY MATRIX (Installation Costs in Millions $)\n");
+    printf("\n ADJACENCY MATRIX (Installation Costs in Millions $)\n");
     printf("═══════════════════════════════════════════════════════════════\n");
     
     // Print column headers
@@ -88,7 +88,7 @@ void kruskalMST(int graph[][MAX_HUBS], int numHubs, char hubs[]) {
     int edgeCount = 0;
     int resultCount = 0;
     
-    printf("\n🔍 APPLYING KRUSKAL'S ALGORITHM\n");
+    printf("\n APPLYING KRUSKAL'S ALGORITHM\n");
     printf("═══════════════════════════════════════════════════════════════\n\n");
     
     // Step 1: Create list of all edges
@@ -162,7 +162,7 @@ void kruskalMST(int graph[][MAX_HUBS], int numHubs, char hubs[]) {
     
     // Display results
     printf("═══════════════════════════════════════════════════════════════\n");
-    printf("📋 MINIMUM SPANNING TREE - SELECTED FIBER-OPTIC LINKS\n");
+    printf(" MINIMUM SPANNING TREE - SELECTED FIBER-OPTIC LINKS\n");
     printf("═══════════════════════════════════════════════════════════════\n\n");
     
     printf("   Connections to Install:\n");
@@ -194,7 +194,7 @@ void kruskalMST(int graph[][MAX_HUBS], int numHubs, char hubs[]) {
     }
     
     printf("\n═══════════════════════════════════════════════════════════════\n");
-    printf("✅ NETWORK DEPLOYMENT COMPLETE\n");
+    printf(" NETWORK DEPLOYMENT COMPLETE\n");
     printf("═══════════════════════════════════════════════════════════════\n\n");
     
     printf("   Network Statistics:\n");

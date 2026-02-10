@@ -25,11 +25,11 @@ Contains:
 
 ## Features
 
-- ✅ **User Input** - Accept suspected compromised workstation (A-G)
-- ✅ **BFS Traversal** - Discover immediate contacts (one-hop neighbors)
-- ✅ **Risk Analysis** - Identify highest-risk peer by transfer time
-- ✅ **Weighted Graph** - Edge weights represent data transfer times
-- ✅ **Interactive** - Handles missing edge weights via user input
+-  **User Input** - Accept suspected compromised workstation (A-G)
+-  **BFS Traversal** - Discover immediate contacts (one-hop neighbors)
+-  **Risk Analysis** - Identify highest-risk peer by transfer time
+-  **Weighted Graph** - Edge weights represent data transfer times
+-  **Interactive** - Handles missing edge weights via user input
 
 ## Compilation Instructions
 
