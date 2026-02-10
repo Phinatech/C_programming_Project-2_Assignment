@@ -60,7 +60,7 @@ void heapifyDown(SecurityQueue *queue, int index) {
 // Add a new passenger to the security queue
 void addPassenger(SecurityQueue *queue, const char *name, int riskScore) {
     if (queue->size == queue->capacity) {
-        printf("⚠️  Security queue is full! Cannot add more passengers.\n");
+        printf("  Security queue is full! Cannot add more passengers.\n");
         return;
     }
     
@@ -142,7 +142,7 @@ void showScreeningOrder(SecurityQueue *queue) {
         return;
     }
     
-    printf("\n📋 SCREENING ORDER (Highest Risk First):\n");
+    printf("\n SCREENING ORDER (Highest Risk First):\n");
     printf("═══════════════════════════════════════════════════════\n");
     
     // Create a temporary copy so we don't modify the original queue

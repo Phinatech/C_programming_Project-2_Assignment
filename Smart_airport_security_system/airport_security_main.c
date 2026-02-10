@@ -10,7 +10,7 @@ int main() {
     printf("═══════════════════════════════════════════════════════\n\n");
     
     // Initial passengers arriving at security checkpoint
-    printf("📍 Initial Passengers Arriving at Security Checkpoint:\n");
+    printf(" Initial Passengers Arriving at Security Checkpoint:\n");
     printf("───────────────────────────────────────────────────────\n");
     
     char *passengerNames[] = {"Alice Johnson", "Brian Lee", "Chen Wei", 
@@ -52,7 +52,7 @@ int main() {
     printf("   (Tree view - highest risk at top)\n\n");
     displayQueueAsTree(queue, 0, 0);
     
-    printf("\n\n💡 Understanding the Queue:\n");
+    printf("\n\n Understanding the Queue:\n");
     printf("   • %s has the highest risk score (%d) and is at the root\n", 
            queue->passengers[0].name, queue->passengers[0].riskScore);
     printf("   • Every parent has a higher or equal risk score than their children\n");
@@ -70,7 +70,7 @@ int main() {
     printf("TASK 4: New High-Risk Passenger Arrival\n");
     printf("═══════════════════════════════════════════════════════\n\n");
     
-    printf("🚨 ALERT: New passenger detected with high risk score!\n");
+    printf("ALERT: New passenger detected with high risk score!\n");
     printf("───────────────────────────────────────────────────────\n");
     printf("Passenger: David Martinez\n");
     printf("Risk Score: 98\n");
@@ -99,7 +99,7 @@ int main() {
     printf("TASK 5: Passenger Cleared from High-Risk List\n");
     printf("═══════════════════════════════════════════════════════\n\n");
     
-    printf("✅ CLEARED: David Martinez has been screened and cleared\n");
+    printf("CLEARED: David Martinez has been screened and cleared\n");
     printf("───────────────────────────────────────────────────────\n");
     printf("Reason: False positive - no actual threat detected\n");
     printf("Action: Removing from security queue\n\n");
@@ -126,7 +126,7 @@ int main() {
     
     printf("\n\n");
     printf("═══════════════════════════════════════════════════════\n");
-    printf("📊 SYSTEM SUMMARY\n");
+    printf("SYSTEM SUMMARY\n");
     printf("═══════════════════════════════════════════════════════\n\n");
     
     printf("✓ Successfully processed %d passengers\n", numPassengers);
