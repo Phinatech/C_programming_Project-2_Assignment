@@ -16,7 +16,7 @@ job_scheduler/
 ### 1. max_heap.h (Header File)
 
 Contains:
-- **Job** structure definition (jobID, priority)
+- Job structure definition (jobID, priority)
 - MaxHeap structure definition (array, size, capacity)
 - Function prototypes for all heap operations
 

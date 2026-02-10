@@ -2,10 +2,6 @@
 #include "max_heap.h"
 
 int main() {
-    printf("╔════════════════════════════════════════════════════════════╗\n");
-    printf("║   CLOUD COMPUTING JOB SCHEDULER - MAX-HEAP IMPLEMENTATION  ║\n");
-    printf("╚════════════════════════════════════════════════════════════╝\n");
-    
     // Initial priorities
     int priorities[] = {42, 17, 93, 28, 65, 81, 54, 60, 99, 73, 88};
     char jobIDs[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K'};
@@ -116,19 +112,6 @@ int main() {
         }
     }
     printf("Max-Heap property maintained: %s\n", valid ? "✓ YES" : "✗ NO");
-    
-    printf("\n\n┌──────────────────────────────────────────────────┐\n");
-    printf("│ SUMMARY OF OPERATIONS                            │\n");
-    printf("└──────────────────────────────────────────────────┘\n");
-    printf("\n1. Built binary tree from 11 jobs\n");
-    printf("2. Converted to Max-Heap using heapify-down operations\n");
-    printf("3. Inserted urgent job (priority 100) using heapify-up\n");
-    printf("4. Removed urgent job using heapify-down\n");
-    printf("5. Max-Heap property maintained throughout all operations\n");
-    
-    printf("\n╔════════════════════════════════════════════════════════════╗\n");
-    printf("║                    EXECUTION COMPLETE                      ║\n");
-    printf("╚════════════════════════════════════════════════════════════╝\n\n");
     
     // Free memory
     freeHeap(heap);
